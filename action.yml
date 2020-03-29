@@ -4,3 +4,6 @@ author: 'Gaurang Shah'
 runs:
   using: 'node12'
   main: 'dist/index.js'
+branding:
+  icon: 'git-pull-request'
+  color: 'green'
