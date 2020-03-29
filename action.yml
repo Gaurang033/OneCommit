@@ -1,0 +1,6 @@
+name: 'OneCommit'
+description: 'Checks if pull request has single commit or not'
+author: 'Gaurang Shah'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
