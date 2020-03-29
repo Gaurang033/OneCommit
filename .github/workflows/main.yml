@@ -1,0 +1,11 @@
+name: OneCommit
+on: [pull_request]
+jobs:
+  oneCommit:
+    runs-on: ubuntu-latest
+    name: restrict commit messages
+    steps:
+      - uses: actions/checkout@v1
+      - uses: Gaurang033/OneCommit@v1     
+        with: 
+          max_commits: 1
